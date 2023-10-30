@@ -27,7 +27,7 @@ Optionally, its possible to set the following settings:
 
 **Code**
 ```
-FortiAssetMgmt = pyfortiassetmgmt.api(
+fortiassetmgmt = pyfortiassetmgmt.api(
     userid = "<your forticloud userid>",
     password = "<your forticloud password>"
 )
