@@ -34,7 +34,7 @@ class Api(object):
         return Folders(api=self)
 
     @property
-    def Licenses(self):
+    def licenses(self):
         """Endpoints related to license management.
         """
         return Licenses(api=self)

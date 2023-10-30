@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="pyfortiassetmgmt",
-    version="1.0.0",
+    version="1.0.1",
     description="Python API client library for Fortinet's Asset Management.",
     long_description=long_description,
     long_description_content_type="text/markdown",
