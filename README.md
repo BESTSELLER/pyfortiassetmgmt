@@ -37,7 +37,7 @@ fortiassetmgmt = pyfortiassetmgmt.api(
 ### Retrieve a product.
 **Code**
 ```
-products = pyfortiassetmgmt.products.all(serialNumber="FGT60FTK1234ABCD")
+products = fortiassetmgmt.products.all(serialNumber="FGT60FTK1234ABCD")
 print(products)
 ```
 
@@ -210,7 +210,7 @@ print(products)
 ### Retrieve a contract.
 **Code**
 ```
-contracts = pyfortiassetmgmt.contracts.all(contractNumber="1234AB123456")
+contracts = fortiassetmgmt.contracts.all(contractNumber="1234AB123456")
 print(contracts)
 ```
 
@@ -236,7 +236,7 @@ print(contracts)
 ### Register a product.
 **Code**
 ```
-register = pyfortiassetmgmt.products.register(
+register = fortiassetmgmt.products.register(
     serialNumber = "FGT60FTK1234ABCD",
     cloudKey = "80X4LSN3"
 )
