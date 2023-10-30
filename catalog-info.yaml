@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: pyfortiasset
+  name: pyfortiassetmgmt
   description: Python API client library for Fortinet's Asset Management.
   annotations:
-    github.com/project-slug: BESTSELLER/pyfortiasset
+    github.com/project-slug: BESTSELLER/pyfortiassetmgmt
 spec:
   type: service
   lifecycle: experimental

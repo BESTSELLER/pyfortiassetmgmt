@@ -1,0 +1,1 @@
+from pyfortiassetmgmt.core.api import Api as api
