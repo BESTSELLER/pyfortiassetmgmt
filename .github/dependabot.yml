@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    reviewers:
+      - "BESTSELLER/network"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    reviewers:
+      - "BESTSELLER/network"
+  - package-ecosystem: "pip"
+    directory: "/plugin"
+    schedule:
+      interval: "monthly"
+    reviewers:
+      - "BESTSELLER/network"
